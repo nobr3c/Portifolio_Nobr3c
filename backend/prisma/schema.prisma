@@ -11,4 +11,15 @@ generator client {
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Tecnologia {
+  id          Int @id @default(autoincrement())
+  nome        String
+  descricao   String
+  imagem      String
+  destaque    Boolean @default(false)
+
+  @@map("tecnologias")
 }
