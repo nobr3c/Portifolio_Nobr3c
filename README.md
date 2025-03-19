@@ -19,6 +19,7 @@
 - **[Docker](https://www.docker.com/)**
     - Imagem do Docker: n8n
 - **[NestJs](https://docs.nestjs.com/)**
+- **[Supabase](https://supabase.com/)**
 ---
 
 ## Projeto
