@@ -30,7 +30,7 @@ Para iniciar o projeto, navegue até a pasta **`core`** e execute o seguinte com
 
 No back-end instalar de forma global com o comando `npm i -g @nestjs/cli`, para verificar os comando utilizar `nest --help`
 
-Instalar as dependencias e criar a pasta backend utilizar o comando `nest new backend` e selecionar o gerenciador de pacote `npm`
+Instalar as dependencias e criar a pasta backend utilizar o comando `nest new backend` e selecionar o gerenciador de pacote `npm` na pasta `.\Portifolio_Nobr3c`
 
 ## Teste modo DEV:
 
