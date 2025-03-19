@@ -10,8 +10,8 @@
         - GitHub Copilot
         - Material Icon Theme
         - PostCSS Language Support
-        - Rest Client
-        - Prisma
+        - Rest Client**
+        - **[Prisma](https://www.prisma.io/docs/getting-started/quickstart-sqlite)**
         - Prettier - Code formatter
         - Tailwind CSS IntelliSense
         - Sort Lines
@@ -36,3 +36,8 @@ Instalar as dependencias e criar a pasta backend utilizar o comando `nest new ba
 ## Teste modo DEV:
 
 Utilizar o comando `npm run start:dev` na pasta backend
+
+Prisma
+
+![prismaComando](image.png)
+Na pasta backend rodar o comando `npm install prisma --save-dev`
