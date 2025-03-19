@@ -41,3 +41,7 @@ Prisma
 
 ![prismaComando](image.png)
 Na pasta backend rodar o comando `npm install prisma --save-dev`
+
+Para iniciar o Prisma utilizar o comando `npx prisma init` se for utilizar o Sqlite, utilizar o comando a seguir `npx prisma init --datasource-provider sqlite`
+
+![alt text](image-1.png)
