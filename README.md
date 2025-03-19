@@ -18,7 +18,7 @@
         - Rainbow CSV
 - **[Docker](https://www.docker.com/)**
     - Imagem do Docker: n8n
-- **[NestJs](https://docs.nestjs.com/)
+- **[NestJs](https://docs.nestjs.com/)**
 ---
 
 ## Projeto
