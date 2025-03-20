@@ -3,5 +3,5 @@ export default interface Tecnologia {
     nome:       string
     descricao:  string
     imagem:     string
-    destaque:   string
+    destaque:   boolean,
 }
