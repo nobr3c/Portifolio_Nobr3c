@@ -83,3 +83,7 @@ Criar um provider dentro da pasta de `Tecnologia`:
 - Acessar a pasta: `cd .\src\tecnologia`
 
 - Comando: `nest g pr tecnologia.provider --no-spec --flat`
+
+Na pasta de projetos com o comando: `cd..` e depois `cd .\projetos\` 
+
+- Executar o comando: `nest g pr projeto.provider --no-spec --flat` e `nest g co projeto --no-spec --flat`
