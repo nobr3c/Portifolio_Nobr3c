@@ -87,3 +87,11 @@ Criar um provider dentro da pasta de `Tecnologia`:
 Na pasta de projetos com o comando: `cd..` e depois `cd .\projetos\` 
 
 - Executar o comando: `nest g pr projeto.provider --no-spec --flat` e `nest g co projeto --no-spec --flat`
+
+Rodar os comandos a seguir no SQL Editor do SupaBase. 
+
+`grant usage on schema "public" to anon;`
+`grant usage on schema "public" to authenticated;`
+`grant all on NOME_DA_SUA_TABELA_AQUI to anon;`
+`grant all on NOME_DA_SUA_TABELA_AQUI to authenticated;`
+
