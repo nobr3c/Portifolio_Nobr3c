@@ -1,5 +1,7 @@
 # Projeto Portfólio Full Stack + Agentes de IA - Formação DEV com Leonardo Leitão
 
+![alt text](image-2.png)
+
 ### Ferramentas utilizadas no curso
 
 - **[Node.js](https://nodejs.org/pt)**
@@ -55,12 +57,29 @@ Criar uma conta no [N8N](https://app.n8n.cloud/register), ferramenta de integra�
 Nest G = nest generate => comando
 
 Na pasta backend rodar os comandos do nest:
-    - `nest g module db`
-    - `nest g module projeto`
-    - `nest g module tecnologia`
+
+- `nest g module db`
+
+- `nest g module projeto`
+
+- `nest g module tecnologia`
 
 Criar uma classe para acessar o prisma através desta classe e implementar API de tecnologia:
 
 Acessar a pasta: `cd .\src\db\`
 
 Criar o arquivo prisma.provider: `nest g pr pisma.provider --no-spec --flat`
+
+Acessar a pasta de tecnologia: 
+
+- `cd ..`
+
+- `cd .\tecnologia\`
+
+Criar um controler e não irá criar uma outra pasta com o `--no-spec --flat`: `nest g co tecnologia --no-spec --flat`
+
+Criar um provider dentro da pasta de `Tecnologia`:
+
+- Acessar a pasta: `cd .\src\tecnologia`
+
+- Comando: `nest g pr tecnologia.provider --no-spec --flat`
