@@ -47,3 +47,5 @@ Para iniciar o Prisma utilizar o comando `npx prisma init` se for utilizar o Sql
 ![alt text](image-1.png)
 
 Rodar o comando `npx prisma migrate dev` na pasta backend, este comando ira conectar com o SupaBase e aplicar estas migrations 
+
+Dados do Banco obtidos em [Dados](https://github.com/portfolio-projetos-dev/assets)
