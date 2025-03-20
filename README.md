@@ -57,3 +57,7 @@ Na pasta backend rodar os comandos do nest:
     - `nest g module db`
     - `nest g module projeto`
     - `nest g module tecnologia`
+
+Criar uma classe para acessar o prisma através desta classe e implementar API de tecnologia:
+    Acessar a pasta:`cd .\src\db\`
+    Criar o arquivo prisma.provider: `nest g pr pisma.provider --no-spec --flat`
