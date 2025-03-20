@@ -12,5 +12,4 @@ export default interface Projeto {
     repositorio:    string,
     destaque:       boolean,
     tecnologias:    Tecnologia[]
-
 }
