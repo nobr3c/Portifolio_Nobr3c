@@ -52,3 +52,8 @@ Dados do Banco obtidos em [Dados](https://github.com/portfolio-projetos-dev/asse
 
 Criar uma conta no [N8N](https://app.n8n.cloud/register), ferramenta de integração e fluxos
 
+Nest G = nest generate => comando
+Na pasta backend rodar os comandos do nest:
+    - `nest g module db`
+    - `nest g module projeto`
+    - `nest g module tecnologia`
