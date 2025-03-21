@@ -91,7 +91,10 @@ Na pasta de projetos com o comando: `cd..` e depois `cd .\projetos\`
 Rodar os comandos a seguir no SQL Editor do SupaBase. 
 
 `grant usage on schema "public" to anon;`
+
 `grant usage on schema "public" to authenticated;`
+
 `grant all on NOME_DA_SUA_TABELA_AQUI to anon;`
+
 `grant all on NOME_DA_SUA_TABELA_AQUI to authenticated;`
 
