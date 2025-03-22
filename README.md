@@ -20,8 +20,10 @@
         - Rainbow CSV
 - **[Docker](https://www.docker.com/)**
     - Imagem do Docker: n8n
+    - [Dockerfile](https://github.com/Saluki/nestjs-template/blob/master/Dockerfile)
 - **[NestJs](https://docs.nestjs.com/)**
 - **[Supabase](https://supabase.com/)**
+- **[Fly.io](https://fly.io/docs/flyctl/)**
 ---
 
 ## Projeto
