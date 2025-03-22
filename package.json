@@ -1,0 +1,20 @@
+{
+  "name": "portifolio_nobr3c",
+  "version": "1.0.0",
+  "description": "![alt text](image-2.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx concurrently  \" cd backend && npm run start:dev \" \" cd frontend && npm run dev \" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobr3c/Portifolio_Nobr3c.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nobr3c/Portifolio_Nobr3c/issues"
+  },
+  "homepage": "https://github.com/nobr3c/Portifolio_Nobr3c#readme"
+}
