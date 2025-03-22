@@ -100,3 +100,17 @@ Rodar os comandos a seguir no SQL Editor do SupaBase.
 
 `grant all on NOME_DA_SUA_TABELA_AQUI to authenticated;`
 
+### Deploy aplicação
+
+- Criar um `Dockerfile` na pasta `backend` do projeto, utilizar o modelo `https://github.com/Saluki/nestjs-template/blob/master/Dockerfile`
+
+- Acrescentar os campos `COPY --from=builder --chown=node:node /home/node/prisma/ ./prisma/`
+
+`CMD ["node", "dist/backend/src/main.js"]`
+
+Em seguida rodar o comando na pasta `backend`:
+
+    - `iwr https://fly.io/install.ps1 -useb | iex`
+    
+    - `fly launch --no-deploy` 
+
