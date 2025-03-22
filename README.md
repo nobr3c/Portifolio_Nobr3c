@@ -114,4 +114,6 @@ Em seguida rodar o comando na pasta `backend`:
     
     - `fly launch --no-deploy` 
 
-Entrar na pasta Raiz do projeto
+Para realizar o Deploy da aplicação no Fly.io, entrar na raiz do projeto e rodar o comando: `fly auth logout`
+
+`fly auth login`
