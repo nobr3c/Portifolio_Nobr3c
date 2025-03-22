@@ -119,3 +119,17 @@ Para realizar o Deploy da aplicação no Fly.io, entrar na raiz do projeto e rod
 `fly auth login`
 
 Para realizar o deploy utilizar o comando: `fly deploy`
+
+--------------------------------------------
+
+#### Criando o Frontend
+
+Executar o comando na raiz do projeto `npx create-next-app@latest frontend`
+
+![alt text](image-3.png)
+
+Na raiz do projeto `npm init -y`
+
+No arquivo `package.json` na raiz incluir o comando para rodar os 2 projeto `"dev": "npx concurrently  \" cd backend && npm run start:dev \" \" cd frontend && npm run dev \" "`
+
+Na raiz do projeto executar `npm run dev`
