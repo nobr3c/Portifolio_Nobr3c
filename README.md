@@ -102,7 +102,7 @@ Rodar os comandos a seguir no SQL Editor do SupaBase.
 
 ### Deploy aplicação
 
-- Criar um `Dockerfile` na pasta `backend` do projeto, utilizar o modelo `https://github.com/Saluki/nestjs-template/blob/master/Dockerfile`
+- Criar um `Dockerfile` na pasta `backend` do projeto, utilizar o modelo `https://github.com/Saluki/nestjs-template/blob/master/Dockerfile` como referencia
 
 - Acrescentar os campos `COPY --from=builder --chown=node:node /home/node/prisma/ ./prisma/`
 
@@ -114,3 +114,4 @@ Em seguida rodar o comando na pasta `backend`:
     
     - `fly launch --no-deploy` 
 
+Entrar na pasta Raiz do projeto
