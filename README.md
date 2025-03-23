@@ -163,4 +163,40 @@ Start na aplicação, retornar a raiz do projeto:
 
 `npm run dev`
 
+Instalar as Dependencias:
 
+- [React markdown](https://www.npmjs.com/package/react-markdown/v/8.0.6)
+
+- [rehype-raw](https://www.npmjs.com/package/rehype-raw/v/6.1.0)
+
+- [remark-gfm](https://www.npmjs.com/package/remark-gfm/v/1.0.0)
+
+Acessar a pasta frontend do projeto: `cd frontend`
+
+Rodar o comando para instalar: `npm i react-markdown rehype-raw remark-gfm`
+
+`cd ..`
+
+`npm run dev`
+
+Instalar a depêndencia do [Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography)
+
+Acessar a pasta frontend do projeto: `cd frontend`
+
+Instalar com o comando: `npm install -D @tailwindcss/typography`
+
+`cd ..`
+
+`npm run dev`
+
+Instalar o [Popover](https://ui.shadcn.com/docs/components/popover)
+
+Acessar a pasta frontend do projeto: `cd frontend`
+
+Rodar o comando para instalar: `npx shadcn@latest add popover`
+
+`cd ..`
+
+`npm run dev`
+
+Deploy na vercel
