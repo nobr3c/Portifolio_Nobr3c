@@ -142,15 +142,15 @@ Documentação [shadcn](ui.shadcn.com/docs/components/carousel)
 
 Acessar o link e selecionar a opção do NestJs
 
-    Na pasta frontend executar o comando: `cd .\frontend\` e eem seguida executar o comando: `pnx shadcn@latest init` em seguida selecionar `y`
+   - Na pasta frontend executar o comando: `cd .\frontend\` e eem seguida executar o comando: `pnx shadcn@latest init` em seguida selecionar `y`
 
     ![alt text](image-4.png)
 
-    Utilizar a cor cinza que será o `Zinc`
+  - Utilizar a cor cinza que será o `Zinc`
 
     ![alt text](image-5.png)
 
-    Como o shadcn não esta totalmente compativel com o react-19 até o momento selecionar a opção `Use --force`
+   - Como o shadcn não esta totalmente compativel com o react-19 até o momento selecionar a opção `Use --force`
 
     ![alt text](image-6.png)
 
