@@ -110,9 +110,9 @@ Rodar os comandos a seguir no SQL Editor do SupaBase.
 
 Em seguida rodar o comando na pasta `backend`:
 
-    - `iwr https://fly.io/install.ps1 -useb | iex`
+- - `iwr https://fly.io/install.ps1 -useb | iex`
     
-    - `fly launch --no-deploy` 
+- - `fly launch --no-deploy` 
 
 Para realizar o Deploy da aplicação no Fly.io, entrar na raiz do projeto e rodar o comando: `fly auth logout`
 
@@ -134,27 +134,28 @@ No arquivo `package.json` na raiz incluir o comando para rodar os 2 projeto `"de
 
 Na raiz do projeto executar `npm run dev`
 
-### Componentes Carrossel
+### Componentes Carrossel:
 
 Documentação [shadcn](ui.shadcn.com/docs/components/carousel)
     
-    - **[Documentação para Instalar](https://ui.shadcn.com/docs/installation/next)**
+- - **[Documentação para Instalar](https://ui.shadcn.com/docs/installation/next)**
 
 Acessar o link e selecionar a opção do NestJs
 
-   - Na pasta frontend executar o comando: `cd .\frontend\` e eem seguida executar o comando: `pnx shadcn@latest init` em seguida selecionar `y`
+- - Na pasta frontend executar o comando: `cd .\frontend\` e eem seguida executar o comando: `pnx shadcn@latest init` em seguida selecionar `y`
 
-    ![alt text](image-4.png)
+![alt text](image-4.png)
 
-  - Utilizar a cor cinza que será o `Zinc`
+- - Utilizar a cor cinza que será o `Zinc`
 
-    ![alt text](image-5.png)
+![alt text](image-5.png)
 
-   - Como o shadcn não esta totalmente compativel com o react-19 até o momento selecionar a opção `Use --force`
+- - Como o shadcn não esta totalmente compativel com o react-19 até o momento selecionar a opção `Use --force`
 
-    ![alt text](image-6.png)
 
-Comando para instalar o Carrossel: `npx shadcn@latest add carousel`
+![alt text](image-6.png)
+
+- Comando para instalar o Carrossel: `npx shadcn@latest add carousel`
 
 Start na aplicação, retornar a raiz do projeto:
 
