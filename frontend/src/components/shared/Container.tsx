@@ -1,6 +1,6 @@
 export interface ContainerProps {
   children: React.ReactNode
-  classname?: string
+  className?: string
 }
 
 export default function ContainerProps(props: ContainerProps) {
