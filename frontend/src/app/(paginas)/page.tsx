@@ -1,6 +1,8 @@
-import Image from "next/image";
+import Container from '@/components/shared/Container';
 
 export default function Home() {
-  return <div>Inicio</div>
+  return <Container classname='bg-red-500'>
+    <div>Inicio</div>
+  </Container>
     
 }
