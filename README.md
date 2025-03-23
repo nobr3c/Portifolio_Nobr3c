@@ -133,3 +133,33 @@ Na raiz do projeto `npm init -y`
 No arquivo `package.json` na raiz incluir o comando para rodar os 2 projeto `"dev": "npx concurrently  \" cd backend && npm run start:dev \" \" cd frontend && npm run dev \" "`
 
 Na raiz do projeto executar `npm run dev`
+
+### Componentes Carrossel
+
+Documentação [shadcn](ui.shadcn.com/docs/components/carousel)
+    
+    - **[Documentação para Instalar](https://ui.shadcn.com/docs/installation/next)**
+
+Acessar o link e selecionar a opção do NestJs
+
+    Na pasta frontend executar o comando: `cd .\frontend\` e eem seguida executar o comando: `pnx shadcn@latest init` em seguida selecionar `y`
+
+    ![alt text](image-4.png)
+
+    Utilizar a cor cinza que será o `Zinc`
+
+    ![alt text](image-5.png)
+
+    Como o shadcn não esta totalmente compativel com o react-19 até o momento selecionar a opção `Use --force`
+
+    ![alt text](image-6.png)
+
+Comando para instalar o Carrossel: `npx shadcn@latest add carousel`
+
+Start na aplicação, retornar a raiz do projeto:
+
+`cd ..`
+
+`npm run dev`
+
+
